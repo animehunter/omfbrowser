@@ -1,4 +1,4 @@
 omfbrowser
 ==========
 
-Play OMF in a browser
+Play OMF @ http://animehunter.github.com/omfbrowser/
