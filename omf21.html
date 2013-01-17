@@ -1,0 +1,30 @@
+<html>
+<body>
+Then click the game so that it will have keyboard focus
+<p>
+Use your keyboard to play the game.
+<p>
+<b>Keys:</b> <br>
+w = Up <br>
+a = Left <br>
+s = Down <br>
+d = Right <br>
+[ = Punch <br>
+] = Kick
+<br>
+Enter = Select <br>
+Escape = Back/Quit
+<p>
+<APPLET CODE="jdos.gui.MainApplet" archive='omf21.jar,jdosbox.27.1.jar' WIDTH=640 HEIGHT=400>
+  <param name="param1" value="imgmount e jar://omf21.img -t hdd">
+  <param name="param2" value="config -set cpu cycles fixed 12000">
+  <param name="param3" value="config -set cpu core dynamic">
+  <param name="param4" value="config -set machine vgaonly">
+  <param name="param5" value="config -set mixer rate 44100">
+  <param name="param6" value="config -set mixer blocksize 1024">
+  <param name="param7" value="config -set mixer prebuffer 20">
+  <param name="param8" value="e:">
+  <param name="param9" value="omf.exe">
+ </APPLET> 
+</body>
+</html>
